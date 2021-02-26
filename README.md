@@ -19,3 +19,4 @@ For an already installed demo,
 1. Send a whatsapp message to this number: join here-mathematics
 2. You are ready to test. Type Hi
 
+***Demo is running on AWS.
