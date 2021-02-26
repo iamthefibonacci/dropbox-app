@@ -6,6 +6,7 @@ It uses Dropbox APIs, NGROK, Flask, Twilio and Python
 1. To test, download repository to you machine: https://github.com/mcwilton/dropbox-app.git
 2. Install Python and configure the environment
 3. Register and get a free trial account with Twilio
+4. Register and get an api key to access DropBox
 4. Run Ngrok.exe, and run this command: ngrok http 5000
 5. Copy the webhook with https:// and past that in your Twilio whatsapp sandbox
 6. Run the requirements file to install the dependancies: pip install -r requirements.txt
