@@ -1,6 +1,6 @@
 import dropbox
 import os
-import requests
+
 from twilio.twiml.messaging_response import MessagingResponse
 
 

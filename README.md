@@ -1,4 +1,4 @@
-# Drop-Bot
+# Dropbot
  
 Dropbox App is WhatsApp chatbot that will help you to save media from your phone to 
 a dropbox file.
@@ -16,7 +16,7 @@ It uses Dropbox APIs, NGROK, Flask, Twilio and Python
 
 For an already installed demo, 
 1. Save this number +1 (415) 523-886 as Dropbot.
-1. Send a whatsapp message to this number: join here-mathematics
-2. You are ready to test. Type Hi
+2. Send a WhatsApp message to this number: join here-mathematics
+3. You are ready to test. Type Hi
 
 ***Demo is running on AWS.
