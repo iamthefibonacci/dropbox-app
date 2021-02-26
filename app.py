@@ -38,7 +38,10 @@ def reply():
               )
     elif incoming_msg == '2':
         complete_folder = dropbox_view(user_cell)
-        reply = f'Check your backup here: {complete_folder}'
+        if complete_folder == None:
+            reply= "You have no files in your folder yet. Press and upload files."
+        else:
+            reply = f'Check your backup here: {complete_folder}'
 
     elif incoming_msg == '3':
         reply = f"Here are your all your files {show_all_files(f'/{str(user_cell)}')}"
