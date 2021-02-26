@@ -10,8 +10,14 @@ app = Flask(__name__)
 def reply():
     media_number = int(request.values['NumMedia'])
     media = request.values.get('MediaContentType0', '')
+    
+    
+    print(media)
+    print(user_cell = user_cell = request.values)
+    
+    
     user_cell = request.values['From']
-
+    
     if user_cell.startswith('whatsapp'):
         user_cell = user_cell.split(':')[1]
 
@@ -39,7 +45,7 @@ def reply():
         reply = f'Check your backup here: {complete_folder}'
 
     elif incoming_msg == '3':
-        reply =f"Here are your all your files {show_all_files(f'/{str(user_cell)}')}"
+        reply = f"Here are your all your files {show_all_files(f'/{str(user_cell)}')}"
 
     elif incoming_msg == '4':
         reply = support()
@@ -54,7 +60,7 @@ def reply():
         elif media.startswith('audio/'):
             file_url = request.values['MediaUrl0']
             extension = media.split('/')[1]
-            sdropbox_save(user_cell, file_url, extension)
+            dropbox_save(user_cell, file_url, extension)
             reply = 'Your audio file has been saved! Press 2 to view it'
 
         elif media.startswith('video/'):

@@ -1,6 +1,0 @@
-import dropbox
-import os
-
-dbx = dropbox.Dropbox('sl.Ar9eZWJHbVOONlTHA4yFX_qQ1vloY42ClyVgcXwVaQjH3QgBwuZJH1w6wglGbqe7ndjB4djqK7pp4ojlH8rSZA0opJ54IPBs08jx_xsEKX0jQuZXvMwBIi9ZY6V1TpY_HypJCss')
-
-print(dbx.users_get_current_account())
