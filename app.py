@@ -10,14 +10,10 @@ app = Flask(__name__)
 def reply():
     media_number = int(request.values['NumMedia'])
     media = request.values.get('MediaContentType0', '')
-    
-    
-    print(media)
-    print(user_cell = user_cell = request.values)
-    
-    
+
     user_cell = request.values['From']
-    
+    user_profile = request.values['ProfileName']
+
     if user_cell.startswith('whatsapp'):
         user_cell = user_cell.split(':')[1]
 
@@ -25,7 +21,7 @@ def reply():
     
     incoming_msg = request.values['Body'].lower()
     if 'hi' in incoming_msg:
-            reply = (f"Hi {user_cell}, I am DropBot :). Let me make DropBox backup management easy for you. \n"
+            reply = (f"Hi {user_profile}, I am DropBot :). Let me make DropBox backup management easy for you. \n"
                     "\n"
                     "*>> 1 :* Save files.\n"
                     "\n"
