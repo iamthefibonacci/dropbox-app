@@ -23,18 +23,18 @@ def reply():
     if 'hi' in incoming_msg:
             reply = (f"Hi {user_profile}, I am DropBot :). Let me make DropBox backup management easy for you. \n"
                     "\n"
-                    "*>> 1 :* Save files.\n"
+                    "*>> 1 :* Upload & Backup Files.\n"
                     "\n"
                     "*>> 2 :* View Folder.\n"
                     "\n"
-                    "*>> 3 :* View files list. \n"
+                    "*>> 3 :* View Files List. \n"
                     "\n"
-                    "*>> 4 :* Support.\n"
+                    "*>> 4 :* Get Support.\n"
                     "\n")
 
     elif incoming_msg == '1':
         reply = (
-            f"Upload Videos, Photos & Audios, and I will save them to your DropBox folder.\n"
+            f"Upload Videos, Photos & Audios, and I will save them to your DropBox folder named {user_cell}.\n"
               )
     elif incoming_msg == '2':
         complete_folder = dropbox_view(user_cell)
