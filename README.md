@@ -3,7 +3,6 @@
 Dropbot is WhatsApp chatbot that will help you to save media from your phone to 
 a dropbox file.
 
-
 Functions:
 1. Save media in your phone to a folder created for your using your cell number
 2. Save selfies and live videos instantly
@@ -11,7 +10,6 @@ Functions:
 4. Get a web link to view your folder
 5. Get a list of files in your whatsapp chat
 6. Contact us for support if you need help
-
 
 It uses Dropbox APIs, NGROK, Flask, Twilio and Python. You can host anywhere you want like AWS etc.
 1. To test, download repository to your machine: https://github.com/mcwilton/dropbox-app.git
@@ -24,7 +22,6 @@ It uses Dropbox APIs, NGROK, Flask, Twilio and Python. You can host anywhere you
 7. Run this command: set FLASK_APP=app.py
 8. To run your script: python -m flask run
 9. Test the bot and have fun
-
 
 For an already installed demo, 
 1. Save this number +1 (415) 523-886 as Dropbot in your phone.
