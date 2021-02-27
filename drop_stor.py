@@ -3,7 +3,7 @@ import os
 
 from twilio.twiml.messaging_response import MessagingResponse
 
-#dummy account. So key can be used as you wish.
+#dummy account. So key can be used as you wish
 dbx = dropbox.Dropbox('4LYbJIbHSy4AAAAAAAAAAZ0bI0AzCPDhhh3SyRkJIOs8fC7jQLE6jiNpxGfL5qPi')
 
 
