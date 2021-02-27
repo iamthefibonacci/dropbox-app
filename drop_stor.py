@@ -15,7 +15,7 @@ def show_all_files(phone_number):
     for files in pending_files.entries:
       all_files.append(files.path_lower)
 
-    return spot
+    return all_files
 
 
 def dropbox_save(phone_number, file_url, extension):
