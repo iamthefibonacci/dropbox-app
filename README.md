@@ -24,7 +24,7 @@ It uses Dropbox APIs, NGROK, Flask, Twilio and Python. You can host anywhere you
 9. Test the bot and have fun
 
 For an already installed demo, 
-1. Save this number +1 (415) 523-886 as Dropbot in your phone.
+1. Save this number +1 (415) 523-8886 as Dropbot in your phone.
 2. Send this WhatsApp message to the number: join here-mathematics
 3. You are ready to test. Type Hi
 
